@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
+
+
+h1, h2, h3, h4 {
+    font-family: 'Chivo Mono', monospace;
+    font-weight: bold;
+}
+body {
+   /* font-family: 'Raleway', sans-serif */
+   font-family: 'Chivo Mono', monospace;
+}
+
+a {
+    color: #326273 !important;
+}
+
+.nav-item {
+    font-size: 0.7em;
+}
+
+/* Font Sizes */
+h1 {
+    font-size: 2.5em; /* 40px assuming 16px body font size */
+}
+
+h2 {
+font-size: 2em; /* 32px assuming 16px body font size */
+}
+
+h3 {
+font-size: 1.8em; /* 29px assuming 16px body font size */
+}
+
+h4 {
+font-size: 1.5em; /* 24px assuming 16px body font size */
+}
+
+h5 {
+font-size: 1.2em; /* 19px assuming 16px body font size */
+}
+
+h6 {
+font-size: 1em; /* 16px assuming 16px body font size */
+}
+
+p {
+font-size: 0.8em; /* 16px assuming 16px body font size */
+}
+
+.home-subheader {
+    font-size: 0.9em;
+    font-weight: normal;
+    
+}
+
+.card-title {
+font-size: 1.2em; /* 19px assuming 16px body font size */
+}
+
+.card-text {
+font-size: 0.8em; /* 16px assuming 16px body font size */
+}
+
+/* Small button */
+.btn-sm {
+padding: 0.25rem 0.5rem;
+font-size: 0.875rem;
+line-height: 1.5;
+border-radius: 0.2rem;
+}
+
+/* Medium button */
+.btn-md {
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 0.25rem;
+}
+
+/* Large button */
+.btn-lg {
+padding: 0.5rem 1rem;
+font-size: 1.25rem;
+line-height: 1.5;
+border-radius: 0.3rem;
+}
